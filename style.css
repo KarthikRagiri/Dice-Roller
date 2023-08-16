@@ -1,0 +1,146 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.Container {
+    width: 100%;
+    height: 75vh;
+    text-align: center;
+    background-color: white;
+}
+
+.space {
+    height: 50px;
+}
+
+.box-container {
+    background-color: rgba(255, 255, 255, 0.259);
+    width: 600px;
+    opacity: 0.5;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 10%;
+    margin-top: 50px;
+    display: flex;
+    margin: 0 auto;
+}
+
+.box-container .box1 {
+    background-color: rgba(0, 255, 255, 0.204);
+    width: 50%;
+    border-radius: 5px 0 0 5px;
+}
+
+.box-container .box2 {
+    background-color: rgba(250, 235, 215, 0.585);
+    width: 50%;
+    border-radius: 0 5px 5px 0;
+}
+
+.box-container .box1, .box2 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.box1 h3, .box2 h3 {
+    margin-top: 50px;
+}
+
+.randomNumber {
+    font-size: 70px;
+}
+
+.bottom-box {
+    color: white;
+    background-color: rgba(0, 0, 255, 0.805);
+    padding: 10px;
+    width: 100px;
+    height: 70px;
+    margin-bottom: 50px;
+    position: relative;
+    left: 29%;
+    border-radius: 10px;
+    font-size: 22px;
+    line-height: 1px;
+}
+
+.newgame {
+    margin-top: 20px;
+    outline: none;
+    border: 1px solid lightgray;
+    height: 40px;
+    width: 120px;
+    border-radius: 15px;
+    color: white;
+    background-color: rgba(0, 0, 255, 0.489);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.newgame:hover {
+    color: rgba(0, 0, 255, 0.489);
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 255, 0.489);
+}
+
+.newgame:active {
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+.bottompage {
+    width: 75%;
+    margin: 0 auto;
+    box-shadow: 0 10px 20px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+    text-align: center;
+}
+
+#playerNo {
+    padding: 20 0 10 0;
+    margin-bottom: 0;
+}
+
+.bottompage1 {
+    display: flex;
+}
+
+.bottompage1 .left, .right{
+    height: 70px;
+}
+
+.left, .right {
+    width: 50%;
+}
+
+.bottompage1 button {
+    padding: 10px;
+    height: 40px;
+    width: 70px;
+    border: none;
+    border-radius: 8px;
+    background-color: rgba(58, 43, 226, 0.467);
+    color: white;
+    font-weight: bold;
+}
+
+.bottompage1 button:hover {
+    cursor: pointer;
+}
+
+.bottompage1 button:active {
+    background-color: white;
+    color:  rgba(58, 43, 226, 0.467);
+    border: 1px solid  rgba(58, 43, 226, 0.467);
+}
+
+.vertical-line {
+    background-color: black;
+    height: 30px;
+    width: 1px;
+    margin-top: 10;
+}

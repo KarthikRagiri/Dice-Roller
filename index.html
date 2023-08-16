@@ -1,0 +1,48 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice-Roller</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Container">
+        <button class="newgame" id="newGame" onclick="NewGame()">NEW GAME</button>
+        <div class="space"></div>
+        <div class="box-container">
+            <div class="box1">
+                <h3>PLAYER 1</h3>
+                <h1 id="randomNumber1" class="randomNumber">8</h1>
+                <div class="bottom-box">
+                    <p>Score</p>
+                    <h4 id="user1-Score">0</h4>
+                </div>
+            </div>
+            <div class="box2">
+                <h3>PLAYER 2</h3>
+                <h1 id="randomNumber2" class="randomNumber">0</h1>
+                <div class="bottom-box">
+                    <p>Score</p>
+                    <h4 id="user2-Score">0</h4>
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+    <div class="bottompage">
+        <h3 id="playerNo"></h3>
+        <div class="bottompage1">
+            <div class="left">
+                <button id="player1btn">Roll</button>
+            </div>
+            <div class="vertical-line"></div>
+            <div class="right">
+                <button id="player2btn">Roll</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
